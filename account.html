@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StoreD | E-commerce Website </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<div class="container">
+<body>
+    <div class="navbar">
+        <div class="logo">
+         <a href="index.html"> <img src="img/cara.png" width="125px"> </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="product-details.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+
+            </ul>
+        </nav>
+        <img src="img/cart.png" width="30px" height="30px">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<div class="account">
+
+            <div class="loginbox">
+            <img src="img/test1.jpg" class="avatar">
+            <h1>Login Here</h1>
+
+            <form>
+                <p>Username</p>
+                <input type="text" name="" placeholder="Enter Username"><br><br>
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password"><br><br>
+                <input type="submit" name="" value="Login">
+                <br>
+                <h5><a href="#"> Lost your password?</a><br>
+                <a href="#">Don't have an account?</a>
+                </h5>
+
+            </form>
+            </div>
+
+
+
+        </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="applogo">
+                    <a href="https://play.google.com/store" target="_blank"><img src="img/gp.png"></a>&nbsp;
+                    <a href="https://www.apple.com/ph/app-store/"  target="_blank"><img src="img/ios.png"></a>
+                    
+                </div>
+            </div>
+            <div class="footer-col2">
+                <img src="img/cara1.png">
+                <p>Our purpose is to sustainably make the pleasure and benefit of sports accessible to the many.</p>
+            </div>
+            <div class="footer-col3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="http://ivouchercodes.ph/" target="_blank">Coupons</a></li>
+                    <li><a href="http://www.blogger.com/"  target="_blank">Blog Post</a></li>
+                    <li><a href="https://www.lazada.com.ph/helpcenter/lazada-refund-policy-8765.html" target="_blank">Return Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+                <h3>Download Our App</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy">NoCopyright-SampleOnly</p>
+    </div>
+</div>
+<!--toggle menu js-->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+   
+    MenuItems.style.maxHeight = "0px";
+   
+    function menutoggle()
+    {
+        if (MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight= "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight= "0px"
+        }
+    }
+</script>
+</body>
+
+</html>
